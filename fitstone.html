@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <script> 
+        /*document.write("wyswietlany tekst 1 ");
+        console.log("wyswietlany tekst 2");
+        alert("wyswitlanyt tekst 3");
+        document.write("wyswitlany 4");
+        document.write("opa <br/> opa ")
+        alert("alert");
+        confirm("confirm");
+        prompt("Jakies pytanie", "tu wpisz odpowiedz");*/
+       /* var nazwa;
+        nazwa = "text";
+        nazwa = 1 ;
+        
+        var zmiena_1="liczba P wynosi: ";
+        var zmiena_2= 3.1459;
+        document.write(zmiena_1 + zmiena_2 + "...");*/
+
+        /*var imie = prompt(" jak ,asz na imie ? ", " ")
+        document.write (" Czesc " + imie + "!" )
+
+        var imie2;
+        var imie2 = prompt(" jak ,asz na imie ? ", " ")
+        document.write (" Czesc " + imie2 + "!" )*/
+//zadanie 1 
+        /*var liczba;
+        liczba = prompt("podaj liczbe" , "");
+        document.write ( "podales liczbe " + liczba + "!")*/
+//zadanie 2 
+   /*     var imie, nazwisko, wiek, miejscowosc, zawod;
+         imie = prompt(" jak masz na imie ? ", " ");
+        nazwisko = prompt(" jak masz nazwisko ? ", " ");
+        wiek = prompt(" jaki wiek? ", " ");
+        miejscowosc = prompt(" gdzie mieszkasz ? ", " ");
+        zawod = prompt(" podaj zawod  ", " ");
+        document.write (" Imie: " + imie + ". <br/>" );
+        document.write (" Nazwisko: " + nazwisko + ".<br/>" );
+        document.write (" Wiek: " + wiek + ".<br/>" );
+        document.write (" Miejscowosc: " + miejscowosc + ".<br/>" );
+        document.write (" Zawod: " + zawod + ".<br/>" );*/
+        
+        /*var a = parseInt(prompt("podaj liczbe a" , " "));
+        var b = parseInt(prompt("podaj liczbe b" , " "));
+    
+        document.write( "dodawanie " + "= " +  a + b +"<br/>")
+        document.write("odejmowanie" + "=" +  a -  b + "<br/>")
+        document.write( "mnozenie " + "= " +  a * b+"<br/>")
+        document.write( "dzielenie " + "= " + a /b+"<br/>")
+*/
+        
+// pobrac imie i wyswietlic. zadanie 1 
+        
+       var imie ; 
+        imie = prompt( " jak masz na imie?" , " ");
+        document.write("Witamy ponownie " + imie +" !" )
+// zdanie 2  
+        var option;
+         var a = prompt("Podaj pierwsza liczbe"," ");
+         var b = prompt("Podaj druga liczbe"," ");
+        option = prompt("wybierz działanie (1-4) 1 dodawanie , 2 odejmowanie, 3 mnozene, 4 dzielenie " , "1234 ");
+
+                if(option == 1 )
+                document.write( a +" + " + b + " = "  + (parseInt(a)+parseInt(b)));
+        else
+                if (option == 2)
+                document.write( a +" - " + b + " = "  + (a-=b));
+        else
+                if (option == 3)
+                document.write( a +" * " + b + " = "  + (a*=b));
+        else 
+                if(option == 4)
+                document.write( a +" / " + b + " = "  + (a/=b));
+        else 
+                alert("złe podanie numeru dzialania");
+// zadanie 3; 
+        var height;
+        height = prompt("Podaj wzrost ", " ");
+        if(height >= 180 )
+        document.write("Wysoki");
+        else if (height >= 165)
+        document.write("Średni")
+        else 
+        document.write("Niski"); 
+
+//zadanie 4
+        var yearOfBorn; 
+        yearOfBorn = prompt("Podaj rok urodzenia", "");
+        document.write(2023-yearOfBorn + " To jest twoj wiek" )
+
+//zadnie 5 
+        var yearOfBorn; 
+            yearOfBorn = prompt("Podaj rok urodzenia", "");
+          if(2023-yearOfBorn>=18)
+          document.write("jestes pewno letni");
+        else
+        document.write("NIE jestes pewno letni")
+//zadaenie 6 
+        var option, temperatura; 
+        option = prompt(" wybierz opcje:1. z C na F; 2. F na C ", " 1or2");
+        temperatura = prompt("podaj temperature " , " ");
+        if(option ==1)
+                document.write("z C na F jest :" + (temperatura*9/5+32 ));
+        else if(option==2)
+                document.write("z F na C jest :" + ((temperatura - 32)*5/9) );
+        else 
+        alert("Zły numer dzialania");
+        </script>
+</body>
+</html>
