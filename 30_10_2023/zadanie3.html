@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//zadanie 3 
+        var punkts = prompt("Podaj ile punktów zdobyłeś: " , "...");
+        var makspunkts = prompt("Podaj ile było maksemalnie punktów: ", "...");
+        var answer = punkts/makspunkts * 100; 
+        if(punkts < 0  && makspunkts < 0 && punkts>makspunkts)
+            {
+                alert("źle wprowadziłeś danne");
+            }
+        else if(answer <30 )
+            {
+                alert("Dostaleś ocene nie dostateczny. Twoje procenty:" +answer + "%");
+            }
+        else if (answer >= 30 && answer <= 49 )
+            {
+                alert("Dostaleś ocene dopuszczjace. Twoje procenty:" +answer + "%");
+            }
+        else if (answer >= 50 && answer <= 74)
+            {
+                alert("Dostaleś ocene dostateczny. Twoje procenty:" +answer + "%");
+            }
+        else if (answer >=75 && answer <= 89)
+            {
+                alert("Dostaleś ocene 'dobry'. Twoje procenty:" +answer + "%");
+            }
+        else if (answer >=90 && answer <= 99)
+            {
+                alert("Dostaleś ocene bardzo dobry. Twoje procenty:" +answer + "%");
+            }else alert("Dostaleś ocene celujacy. Twoje procenty:" +answer + "%");
+        
+
+    </script>
+</body>
+</html>

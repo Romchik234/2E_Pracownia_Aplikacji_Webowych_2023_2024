@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//zadanie 2
+        var number = prompt( "Podaj co chcesz wyliczyć: 1-F na C, 2- C na F ","1or2"); 
+        var temperatura; 
+        var answer; 
+        if(number == 1)
+        {
+            temperatura = prompt("Podaj temerature w Fanhreheita:" , "");
+            answer = (parseInt(temperatura) - 32 ) * 5/9;
+            alert("W stopniach to bedzie: " + answer);
+        }else if(number == 2)
+        {
+            temperatura = prompt("Podaj temerature w Stopniach:" , "");
+            answer = parseInt(temperatura) * 9/5  + 32;
+            alert("W Fanhreheita to bedzie: "+ answer);
+        } else alert ("Źle podałeś liczbe :/");
+
+    </script>
+</body>
+</html>
