@@ -1,0 +1,1 @@
+document.write("documnet.write('tekst') - wyswietla tekst" );
