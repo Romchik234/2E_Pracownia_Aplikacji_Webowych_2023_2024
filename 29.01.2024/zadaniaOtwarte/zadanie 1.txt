@@ -1,0 +1,4 @@
+1.
+for - kiedy trzeba wykonać coś ilość razy ile chcemy
+while - trzeba powtzrzać póki nie bedzie warunek false 
+do while - wykona a potem spradzi warunek i bedzie wykonywacz poi warunek true 
