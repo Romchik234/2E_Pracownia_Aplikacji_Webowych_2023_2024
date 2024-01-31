@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var rest = prompt("Podaj reszte: ");
+        var numbersFive =0;
+        var numbersTwo =0;
+        var numbersOne =0;
+        var numbers50grosz =0;
+        var numbers10grosz =0;
+        var numbers1grosz =0;
+        while (rest >= 5)
+            {
+                rest = rest - 5;
+                numbersFive ++;
+            }
+        while(rest >= 2)
+        {
+            rest = rest - 2 ;
+            numbersTwo ++;
+        }
+
+        while(rest >= 1 )
+        {
+            rest = rest - 1;
+            numbersOne++;
+        }
+
+        while(rest >= 0.5 )
+        {
+            rest = rest - 0.5;
+            numbers50grosz++;
+        }
+
+        while(rest >= 0.1 )
+        {
+            rest = rest - 0.1;
+            numbers10grosz++;
+        }
+
+        while(rest >= 0.01 )
+        {
+            rest = rest - 0.01;
+            numbers1grosz++;
+        }  
+        
+       if(numbersFive != 0)
+       document.write ("Potrzebnych Piatek = " + numbersFive+ "<br>");
+
+       if(numbersTwo != 0)
+       document.write ("Potrzebnych Dwujek = " + numbersTwo+ "<br>");
+
+       if(numbersOne != 0)
+       document.write ("Potrzebnych Jedynek = " + numbersOne+ "<br>");
+
+       if(numbers50grosz != 0)
+       document.write ("Potrzebnych 50 groszy  = " + numbers50grosz+ "<br>");
+
+       if(numbers10grosz != 0)
+       document.write ("Potrzebnych 10 groszy  = " + numbers10grosz+ "<br>");
+
+       if(numbers1grosz != 0)
+       document.write ("Potrzebnych 1 groszy (~) = " + numbers1grosz+ "<br>");
+    </script>
+</body>
+</html>
