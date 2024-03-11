@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const tab = [ "marcin", "ania", "agnieszka", "Monika"];
+
+        console.log(tab.indexOf("agnieszka"));
+        console.log(tab.indexOf("Karolina"))
+
+        if(tab.indexOf("ania") !== -1)
+        {
+            console.log("Ania wystepuje pod indeksem", tab.indexOf("ania"));
+        }
+
+        const tab1 =[ "marcin", "ania", "agnieszka", "Monika"];
+        console.log(tab1.lastIndexOf("marcin"));
+
+        const tab3 = [ "marcin", "ania", "agnieszka", "Monika"];
+        if(tab3.includes("ania"))
+        {
+            console.log("Ania wystepuje w tablice pod indeksem",tab3.indexOf("ania"));
+        }
+
+        if (!tab.includes("Pies")){
+            console.log("Pies nie wystepuje w tej tablicy");
+        }
+
+        const bo ={ name: "Jan"}
+        const things= ["ala", "bala", "cala", bo , "data"];
+
+        console.log(things.indexOf(bo));
+
+        const buttons = [...document.querySelectorAll(".pagination-btn")];
+
+        buttons.forEach(btn => {
+            btn.addEventListener("click" , () => {
+                const index = buttons.indexOf(btn);
+                showSlide(index);
+            });
+        });
+    </script>
+</body>
+</html>

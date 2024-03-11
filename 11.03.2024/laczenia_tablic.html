@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const tab1 = ["Ala", "Basia"];
+        const tab2=["Piotr","Marcin"];
+        console.log(tab1 + tab2);
+
+        const anim1=["Pies","Kot"];
+        const anim2=["Slon","Wieloryb"];
+        const anim3=["Chomik ninja","swinka morderca"];
+
+        const table = anim1.concat(anim2);
+        console.log(table);
+
+        const tableBig = anim1.concat(anim2,anim3);
+        console.log(tableBig);
+
+        const anim01= ["Pies", "kot"];
+        const anim02 = ["slon", "wieloryb"];
+        const table01 = [...tab01,...tab02];
+        console.log(table01);
+    </script>
+</body>
+</html>
