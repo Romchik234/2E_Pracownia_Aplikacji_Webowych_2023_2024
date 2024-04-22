@@ -1,0 +1,2 @@
+1.onMouseOver = wykona czynnośc po najechaniu myszką
+1.onMouseMove = wykona czynnośc po zjechaniu myszką 

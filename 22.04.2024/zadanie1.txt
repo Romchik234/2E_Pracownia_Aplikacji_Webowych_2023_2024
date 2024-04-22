@@ -1,0 +1,4 @@
+1.żeby wyświetlić tekst po załadowaniu strony.
+2.żeby wyświetlićkomunitak po wysłaniu np. formularza 
+3.żeby zmnienić coś po najechaniu myszką np. text, color.
+4.żeby zmnienić coś po zjechaniu myszką np. text, color.
