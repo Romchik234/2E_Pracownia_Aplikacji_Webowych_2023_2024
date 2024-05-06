@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paliwo</title>
+    <link rel="stylesheet" href="cenyPaliw.css">
+    <script src="paliwo.js" defer></script>
+</head>
+<body>
+    <main id="main">
+        
+        <div class="main__div">
+            <h4 class="main__h4"> Stancja Paliwa </h4>
+            <table class="main__table">
+                <tr><th>PB95</th> <th id="pb95">6.70</th></tr>
+                <tr><th>PB98</th> <th id="pb98">7.04</th></tr>
+                <tr><th>ON  </th> <th id="on">6.58</th></tr>
+                <tr><th>LPG </th> <th id="lpg">3.04</th></tr>
+            </table>
+            <form class="main__form">
+                <label>
+                    <p>Ile zatankować? <input type="number" name="" class="iloscLitrow" min="1" required placeholder="10"></p>
+                </label>
+                <label >
+                <p> Typ paliwa? <input type="text" id ="typPaliwa" placeholder="Wpisz nazwę np. PB95"   required ></p>
+                </label>
+                <button type="button" id="ObliczCene" onclick="calculate()">Oblicz cenę za tankowanie</button>
+            </form>
+            <p id="wynik"> Zapłacisz: </p>
+        </div>
+    </main>
+</body>
+</html>
