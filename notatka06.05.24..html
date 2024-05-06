@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="MyForm">
+        <input type="text" id="textInput">
+        <button type="button" onclick="getData1()">Pobierz Dane</button>
+    </form>
+<br>
+    <div id="MyDiv">Tresc do pobrania</div>
+    <button onclick="getData3()">Pobierz dane</button>
+    
+    
+    
+    
+    
+    
+    <script>
+        function getData(){
+            var inputVal = document.getElementById("textInput").value;
+            console.log(inputVal);  
+        }
+
+        function getData1(){
+            var inputVal = document.querySelector("#MyForm input[type='text']").value;
+            console.log(inputVal);  
+        }
+
+        function getData2(){
+            var divContent = document.getElementById("MyDiv").innerHTML;
+            console.log(divContent);
+        }
+
+        function getData3(){
+            var divContent = document.getElementById("MyDiv").innerText; // textContent
+            console.log(divContent);
+        }
+
+        function getData4(){
+            var divContent = document.getElementById("MyDiv");
+            console.log(divContent);
+        }
+    </script>
+</body>
+</html>
