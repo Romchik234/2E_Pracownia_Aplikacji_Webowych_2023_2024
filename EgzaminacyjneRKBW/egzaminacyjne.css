@@ -1,0 +1,91 @@
+body 
+{
+    font-family: garamond;
+}
+
+.baner
+{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    width: 80%;
+    height: 80px;
+}
+
+.main
+{
+    width: 80%;
+    height: 600px;
+    
+}
+
+.blokboczny
+{
+    background-color: coral;
+    width: 20%;
+    height: 582px;
+    float: right; 
+    position: relative; bottom: 748px;
+    position: relative; left: 350px;
+    width: 350px;
+}
+
+.ucz {
+    text-align: center;
+}
+
+footer
+{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    margin: 0px 10px 0px 10px;
+}
+
+.Chat
+{
+    border: solid 1px tomato;
+    padding: 15px;
+    height: 470px;
+    overflow: scroll;
+    
+}
+
+.wypowiedzi
+{
+    border-radius: 5px;
+    width: 90%;
+    height: 70px;
+    padding: 2%;
+    margin: 3px;
+}
+
+.JolantaWyp
+{
+    background-color: #EEE;
+    display: flex;
+}
+
+.KrzsiekWyp
+{
+    background-color: #CCC;
+    text-align: right;
+    
+}
+
+button 
+{
+    background-color: tomato;
+    border: solid 1px darkred;
+    margin: 5px;
+    font-weight: bold;
+}
+
+.text 
+{
+    width: 500px;
+}
