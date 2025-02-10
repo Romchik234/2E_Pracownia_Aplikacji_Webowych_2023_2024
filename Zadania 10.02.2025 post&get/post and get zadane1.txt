@@ -1,0 +1,10 @@
+minus GET 
+widoczne dane wprowadzane w formularze w linku strony 
+plusy 
+krótszy link, łatwiej sprawdzać różne dane od razu pisząc w link 
+
+POST 
+plusy 
+	dane w linku są ukryte 
+minusy 
+	nie można wstawiać znaków specjalnych(?)
